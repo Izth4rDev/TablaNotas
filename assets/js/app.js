@@ -59,7 +59,8 @@ function calcularPromedio (nota1, nota2, nota3, ramo){
     nota2 = parseInt(nota2);
     nota3 = parseInt(nota3);
 
-    let promedio = (nota1 + nota2 + nota3)/3
+    let promedio = (nota1 + nota2 + nota3)/3;
+    promedio = promedio.toFixed(1);
     
     if(ramo === "h"){
         let prom_h = document.querySelector("#h_prom");
