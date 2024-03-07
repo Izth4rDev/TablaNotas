@@ -15,22 +15,22 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function notasHtml (){
-    let nota1 = prompt("indique la primera nota de HTML");
-    let nota2 = prompt("indique la segunda nota de HTML");
-    let nota3 = prompt("indique la tercera nota de HTML");
+    let nota1 = prompt("Ingrese nota 1 [HTML]");
+    let nota2 = prompt("Ingrese nota 2 [HTML]");
+    let nota3 = prompt("Ingrese nota 3 [HTML]");
     mostrarTabla(nota1, nota2, nota3, "h");
 
 }
 function notasCss (){
-    let nota1 = prompt("indique la primera nota de Css");
-    let nota2 = prompt("indique la segunda nota de Css");
-    let nota3 = prompt("indique la tercera nota de Css");
+    let nota1 = prompt("Ingrese nota 1 [CSS]");
+    let nota2 = prompt("Ingrese nota 2 [CSS]");
+    let nota3 = prompt("Ingrese nota 3 [CSS]");
     mostrarTabla(nota1, nota2, nota3, "c");
 }
 function notasJs (){
-    let nota1 = prompt("indique la primera nota de Javascript");
-    let nota2 = prompt("indique la segunda nota de Javascript");
-    let nota3 = prompt("indique la tercera nota de Javascript");
+    let nota1 = prompt("Ingrese nota 1 [Javascript]");
+    let nota2 = prompt("Ingrese nota 2 [Javascript]");
+    let nota3 = prompt("Ingrese nota 3 [Javascript]");
     mostrarTabla(nota1, nota2, nota3, "j");
 }
 
