@@ -19,7 +19,6 @@ function notasHtml (){
     let nota2 = prompt("Ingrese nota 2 [HTML]");
     let nota3 = prompt("Ingrese nota 3 [HTML]");
     mostrarTabla(nota1, nota2, nota3, "h");
-
 }
 function notasCss (){
     let nota1 = prompt("Ingrese nota 1 [CSS]");
