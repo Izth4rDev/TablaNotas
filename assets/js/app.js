@@ -54,7 +54,7 @@ function mostrarTabla (nota1, nota2, nota3, ramo){
 
 function calcularPromedio (nota1, nota2, nota3, ramo){
 
-    nota1 = parseInt(nota1);
+    nota1 = parseInt(nota1); 
     nota2 = parseInt(nota2);
     nota3 = parseInt(nota3);
 
@@ -62,7 +62,7 @@ function calcularPromedio (nota1, nota2, nota3, ramo){
     promedio = promedio.toFixed(1);
     
     if(ramo === "h"){
-        let prom_h = document.querySelector("#h_prom");
+        let prom_h = document.querySelector("#h_prom"); 
         prom_h.textContent = promedio;
     }else if(ramo === "c"){
         let prom_c = document.querySelector("#c_prom");
